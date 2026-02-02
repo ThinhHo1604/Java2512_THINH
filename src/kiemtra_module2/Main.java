@@ -235,7 +235,7 @@ public class Main {
 			System.out.println("Sinh viên: " + student.getName());
 			System.out.println("Loại: " + student.getRole());
 			System.out.println("Số khóa học: " + student.getEnrolledCourses().size());
-			System.out.println("💰 Học phí: " + String.format("%.2f", tuition) + " USD");
+			System.out.println("Học phí: " + String.format("%.2f", tuition) + " USD");
 		} else {
 			System.out.println("Không tìm thấy sinh viên!");
 		}
